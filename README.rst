@@ -1,7 +1,9 @@
 procfile2supervisor
 ===================
 
-Tiny utility to convert a Procfile to a supervisor config file.
+Tiny utility to convert a Procfile_ to a Supervisor_ config file.
+
+Built on top of the export functionality in Honcho_.
 
 Example usage
 -------------
@@ -32,3 +34,8 @@ Example usage
     stderr_logfile_maxbytes  = 10MB
     stderr_logfile_backups   = 10
     stderr_capture_maxbytes  = 1MB
+
+
+.. _Procfile: https://devcenter.heroku.com/articles/procfile
+.. _supervisor: http://supervisord.org/
+.. _Honcho: https://pypi.python.org/pypi/honcho
