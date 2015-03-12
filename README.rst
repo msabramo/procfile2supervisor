@@ -6,6 +6,8 @@ Tiny utility to convert a Procfile to a supervisor config file.
 Example usage
 -------------
 
+::
+
     [marca@marca-mac2 profilesvc]$ ls -l Procfile
     -rw-r--r--+ 1 marca  staff  59 Mar 11 16:40 Procfile
 
