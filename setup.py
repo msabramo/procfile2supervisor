@@ -14,7 +14,7 @@ setup(
     author='Marc Abramowitz',
     author_email='marc@marc-abramowitz.com',
     url='https://github.com/msabramo/procfile2supervisor',
-    py_modules=['procfile2supervisor'],
+    packages=['procfile2supervisor'],
     zip_safe=False,
     install_requires=['click', 'honcho[export]'],
     entry_points = """\
